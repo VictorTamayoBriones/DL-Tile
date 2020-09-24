@@ -142,7 +142,7 @@ header {
         border: none; }
 
 .tileInstalation {
-  background: rgb(255, 255, 255);
+  background: #ccc;
   width: 100%; }
   .tileInstalation .contenedor {
     width: 80%;
@@ -175,6 +175,12 @@ header {
         width: 80%;
         margin: auto;
         text-align: center;
+        line-height: 28px;
+        font-family: "OpS-Regular"; }
+      .tileInstalation .contenedor .lets .cuerpo {
+        width: 80%;
+        margin: auto;
+        text-align: left;
         line-height: 28px;
         font-family: "OpS-Regular"; }
     .tileInstalation .contenedor .otherInfromation {
@@ -337,48 +343,5 @@ footer {
       footer .contenedor a:hover {
         color: #f8b40b;
         text-decoration: underline; }
-        .materialboxed {
-          display: block;
-          cursor: -webkit-zoom-in;
-          cursor: zoom-in;
-          position: relative;
-          -webkit-transition: opacity .4s;
-          transition: opacity .4s;
-          -webkit-backface-visibility: hidden;
-        }
-        
-        .materialboxed:hover:not(.active) {
-          opacity: .8;
-        }
-        
-        .materialboxed.active {
-          cursor: -webkit-zoom-out;
-          cursor: zoom-out;
-        }
-        
-        #materialbox-overlay {
-          position: fixed;
-          top: 0;
-          right: 0;
-          bottom: 0;
-          left: 0;
-          background-color: #292929;
-          z-index: 1000;
-          will-change: opacity;
-        }
-        
-        .materialbox-caption {
-          position: fixed;
-          display: none;
-          color: #fff;
-          line-height: 50px;
-          bottom: 0;
-          left: 0;
-          width: 100%;
-          text-align: center;
-          padding: 0% 15%;
-          height: 50px;
-          z-index: 1000;
-          -webkit-font-smoothing: antialiased;
-        }
+
 /*# sourceMappingURL=style.css.map */
