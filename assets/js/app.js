@@ -1,4 +1,4 @@
-//$(document).ready(function(){
+$(document).ready(function(){
     //$('.materialboxed').materialbox();
     var despliegue = document.querySelector('#servicies');
     var desplegable = document.querySelector('.desplegable');
@@ -8,7 +8,11 @@
     despliegue.addEventListener('mouseover', ()=>{
         var desplegable = document.querySelector('.desplegable');
 
-        $(desplegable).slideToggle();
+        $(desplegable).show();
     
     });
-//});
+
+    despliegue.addEventListener('mouseout', ()=>{
+        $(desplegable).hide();
+    });
+});
