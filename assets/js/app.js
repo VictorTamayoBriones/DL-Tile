@@ -2,18 +2,24 @@ $(document).ready(function(){
     //$('.materialboxed').materialbox();
     var despliegue = document.querySelector('#servicies');
     var desplegable = document.querySelector('.desplegable');
+    var btnMenu = document.querySelector('#menu');
+    var ulMenu = document.querySelector('#ul');
+
     $(desplegable).hide();
 
     despliegue.addEventListener('mouseover', ()=>{
         var desplegable = document.querySelector('.desplegable');
 
-        $(desplegable).show();
-    
+        $(desplegable).slideDown();
+
     });
 
     despliegue.addEventListener('mouseout', ()=>{    
-        $(desplegable).hide();     
+        $(desplegable).slideUp();     
     });
 
+    btnMenu.addEventListener('click', ()=>{
+        $(ulMenu).slideToggle();
+    });
 
 });
