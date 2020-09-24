@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="./assets/images/apple-touch-icon.png">
-    <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>DL tile</title>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="navigate">
-            <div class="container">
+            <div class="contenedor">
 
                 <div class="topBar">
                     <p>Call Today! 707-385-5146</p>
@@ -36,60 +34,181 @@
                         </li>
 
                         <li>
-                            <datalist>
-                                <summary><a href="#">Home</a></summary>
-                                <ul>
-                                    <li>
-                                        <a href="TileInstallations.html">Tile Installation</a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="#">Kitchen Tile</a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="#">Bathroom Tile and Shower Tile</a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="#">Ceramic and Stone Tile</a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="#">Countertops</a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="#">Tile and Stone Flooring</a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="#">Quartz</a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="#">Gallery</a>
-                                    </li>
-                                
-                                    <li>
-                                        <a href="#">Testimonials</a>
-                                    </li>
-                                </ul>
-                            </datalist>
+                            <summary><a href="#">Home</a>
                         </li>
                     </ul>
                     <div class="clear"></div>
                 </div>
             </div>
+            <div class="desplegable">
+                <ul>
+                    <li>
+                        <a href="#">Tile Installation</a>
+                    </li>
+                
+                    <li>
+                        <a href="#">Kitchen Tile</a>
+                    </li>
+                
+                    <li>
+                        <a href="#">Bathroom Tile and Shower Tile</a>
+                    </li>
+                
+                    <li>
+                        <a href="#">Ceramic and Stone Tile</a>
+                    </li>
+                
+                    <li>
+                        <a href="#">Countertops</a>
+                    </li>
+                
+                    <li>
+                        <a href="#">Tile and Stone Flooring</a>
+                    </li>
+                
+                    <li>
+                        <a href="#">Quartz</a>
+                    </li>
+                
+                    <li>
+                        <a href="#">Gallery</a>
+                    </li>
+                
+                    <li>
+                        <a href="#">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
+    </header>
+
+    <section class="tileInstalation">
+        <div class="contenedor">
+            <div class="titulo">
+                <h2>Tile Installations Services</h2>
+            </div>
+            <br/>
+            
+
+           
+            <div class="lets">
+                <h6>Custom Tile Work In North Bay Area CA</h6>
+
+                <p class="cuerpo">
+                    Are you thinking of adding tile to your home? Offering tile installation services for floors, kitchens, bathrooms and more! Call us today for a free estimate! 707-385-5146
+                </p>
+                <br>
+                <ul>
+                    <li>Kitchen Tile Installations</li>
+                    <li>Bathroom Tile and Shower Tile Installations</li>
+                    <li>Ceramic and Stone Tile Installations</li>
+                    <li>Tile and Stone Flooring Installations</li>
+                </ul>
+            </div>
+
+            <div name="imagenes" class="row">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/home.jpg" class="card-img-top materialboxed" alt="...">
+                  </div>
+                  <div style="width: 18rem;"></div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/12241617_552304534938558_3239189844626545202_n.jpg" class="card-img-top" alt="...">
+                  </div>
+            </div>
+            
+    </section>
+    <br/>
+
+
+    <section class="contact">
+        <div class="contenedor">
+            <div class="formulario">
+
+                <h4>Get Started Today!</h4>
+                <div class="contenedor">
+                    <label for="name">Name *</label><br>
+                    <input type="text" name="name" id="name" placeholder="Insert a name"> 
+                </div>
+                
+                <div class="contenedor" id="emailContain">
+                    <label for="email">Email *</label><br>
+                    <input type="email" name="email" id="email" placeholder="Insert a email">
+                </div>
+                
+                <div class="contenedor" id="number">
+                    <label for="phone">Phone</label><br>
+                    <input type="number" name="phone" id="phone" placeholder="Insert a phone">    
+                </div>
+                
+                <div class="contenedor" id="message">
+                    <label for="massage">Message</label>
+                    <textarea name="massage" id="massage" placeholder="Insert a massage"></textarea>
+                </div>
+                
+
+                <p>Would you like to receive future emails? *</p>
+
+                <div class="contenedor">
+                    <label for="yes">Yes</label>
+                    <input type="radio" name="yes" id="yes">
+                
+                    <label for="no">No</label>
+                    <input type="radio" name="no" id="no">
+                </div>
+
+                <input type="submit" value="Submit" name="submit" id="submit" class="btn btnSubmit">
+            </div>
+
+            <div class="mapa">
+
+                <h4>Location</h4>
+
+                <iframe width="560" height="315" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d199827.49252012421!2d-122.76443100000002!3d38.503686!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808438d1681bc0d3%3A0x4684cbbfabde42c2!2sSanta+Rosa%2C+CA+95403%2C+USA!5e0!3m2!1sen!2sph!4v1532530714056" frameborder="0" allowfullscreen></iframe>
+
+            </div>
+
+            <div class="contacUs">
+
+                <h4>Contact Us</h4>
+
+                <div class="datos">
+                    <div class="texto">
+                        <p class="name">Díaz López Tile</p>
+
+                        <p class="phone">Phone: 707-385-5146</p>
+
+                        <p class="email">Email: dltilecompany@gmail.com</p>
+
+                        <p class="adress">Adress: 2620 Iroquois Street <br> Santa Rosa CA 95403</p>
+                    </div>
+                    <div class="foto">
+                        <img src="./assets/images/apple-touch-icon.png" alt="logo_tile" title="Logo Tile">
+                    </div>
+                    
+                </div>
+
+                <div class="horarios">
+                    <h5>Hours</h5>
         
-        <div>
-            <h2>Tile Installations Services</h2>
+                    <div class="entreSemana">
+                        <p><samp>Monday to Saturday: </samp> <br> 8:00 Am - 5:00 Pm</p>
+                    </div>
+
+                    <div class="finSemana">
+                        <p><samp>Sunday: </samp> <br> Closed</p>
+                    </div>
+                    
+                </div>
+
+                <div class="clear"></div>
+
+            </div>
 
         </div>
+    </section>
 
     <footer>
-        <div class="container">
+        <div class="contenedor">
             <p> &copy Díaz Lopez Tile</p><br>
             <a href="#">Sitemap</a>
             <a href="#">Privacy Policy</a>
