@@ -96,10 +96,15 @@ header{
         }   
         .desplegable{
             background: #000;
+            position: relative;
+            bottom:60px;
             ul{
-                width: 20%;
-                background: $amarillo;
+                width: 22%;
+                background: linear-gradient(to left, $amarillo, #f8b50be8);
                 padding: 15px;
+                margin-left: 73%;
+                position: absolute;
+                z-index: 3;
                 li{
                     margin:10px;
                     list-style: none;
