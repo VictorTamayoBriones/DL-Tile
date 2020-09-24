@@ -1,5 +1,4 @@
 $(document).ready(function(){
-    $('.materialboxed').materialbox();
     //$('.materialboxed').materialbox();
     var despliegue = document.querySelector('#servicies');
     var desplegable = document.querySelector('.desplegable');
@@ -11,7 +10,10 @@ $(document).ready(function(){
         $(desplegable).show();
     
     });
+
     despliegue.addEventListener('mouseout', ()=>{    
         $(desplegable).hide();     
     });
+
+
 });
