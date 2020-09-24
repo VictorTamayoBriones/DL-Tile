@@ -87,6 +87,7 @@ header {
           font-size: 22px;
           font-family: "Ops-Light"; }
           header .navigate .contenedor .menu ul li a:hover {
+
             text-decoration: underline #fff; }
   header .navigate .desplegable {
     background: #000; }
@@ -137,7 +138,7 @@ header {
         border: none; }
 
 .tileInstalation {
-  background: #ccc;
+  background: rgb(255, 255, 255);
   width: 100%; }
   .tileInstalation .contenedor {
     width: 80%;
