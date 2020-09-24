@@ -48,7 +48,7 @@ body{
 header{
     width: 100%;
     .navigate{
-        .container{
+        .contenedor{
             .topBar{
                 background: $azul;
                 color: #fff;
@@ -89,9 +89,27 @@ header{
                         }
                     }
                 }
+
+                
             }
-        }
-        
+            
+        }   
+        .desplegable{
+            background: #000;
+            ul{
+                width: 20%;
+                background: $amarillo;
+                padding: 15px;
+                li{
+                    margin:10px;
+                    list-style: none;
+                    a{
+                        color:#fff;
+                        text-decoration:1px underline #fff;
+                    }
+                }
+            }
+        }     
     }
     .seeWork{
         width: 100%;
@@ -101,7 +119,7 @@ header{
         background: url(../images/kitchen_tile.jpg);
         background-size: cover;
         overflow: hidden;
-        .container{
+        .contenedor{
             width: 40%;
             padding: 20px;
             margin: auto;
@@ -141,7 +159,7 @@ header{
 .tileInstalation{
     background: #ccc;
     width: 100%;
-    .container{
+    .contenedor{
         width: 80%;
         margin: auto;
         padding: 15px;
@@ -185,7 +203,7 @@ header{
 
         .otherInfromation{
             width: 100%; 
-            .container{
+            .contenedor{
                 width: 50%;
                 margin: auto;
             
@@ -216,7 +234,7 @@ header{
     background: url(../images/tile_pattern.jpg);
     background-size: cover;
     width: 100%;
-    .container{
+    .contenedor{
         width: 90%;
         padding: 20px;
         margin: auto;
@@ -246,7 +264,7 @@ header{
 .contact{
     width: 100%;
     background: url(../images/footer_final.jpg);
-    .container{
+    .contenedor{
         width: 90%;
         margin: auto;
         .formulario{
@@ -263,7 +281,7 @@ header{
                 font-family: "OpS-SemiBold";
                 padding: 20px;
             }
-            .container{
+            .contenedor{
                 width: 50%;
                 float: left;
                 label{
@@ -376,7 +394,7 @@ footer{
     width: 100%;
     background: #000;
     padding: 10px;
-    .container{
+    .contenedor{
         width: 80%;
         margin: auto;
         color: #fff;

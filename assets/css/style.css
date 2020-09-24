@@ -54,7 +54,7 @@ body {
 
 header {
   width: 100%; }
-  header .navigate .container .topBar {
+  header .navigate .contenedor .topBar {
     background: #192a56;
     color: #fff;
     text-align: right;
@@ -62,32 +62,44 @@ header {
     font-family: "OpS-SemiBold";
     font-size: 20px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.7); }
-  header .navigate .container .menu {
+  header .navigate .contenedor .menu {
     width: 100%;
     background: linear-gradient(to left, #f8b40b, #f8b50bd8, #f8b50b42, #f8b50b0c);
     padding: 15px 10px;
     box-shadow: 0px 0px 15px #000000a2;
     position: relative;
     z-index: 1; }
-    header .navigate .container .menu img {
+    header .navigate .contenedor .menu img {
       float: left;
       width: 25%; }
-    header .navigate .container .menu ul {
+    header .navigate .contenedor .menu ul {
       width: 75%;
       margin-top: 3%;
       float: left;
       display: flex;
       flex-direction: row-reverse; }
-      header .navigate .container .menu ul li {
+      header .navigate .contenedor .menu ul li {
         list-style: none;
         margin: 15px; }
-        header .navigate .container .menu ul li a {
+        header .navigate .contenedor .menu ul li a {
           color: #fff;
           text-decoration: none;
           font-size: 22px;
           font-family: "Ops-Light"; }
-          header .navigate .container .menu ul li a:hover {
+          header .navigate .contenedor .menu ul li a:hover {
             text-decoration: underline #fff; }
+  header .navigate .desplegable {
+    background: #000; }
+    header .navigate .desplegable ul {
+      width: 20%;
+      background: #f8b40b;
+      padding: 15px; }
+      header .navigate .desplegable ul li {
+        margin: 10px;
+        list-style: none; }
+        header .navigate .desplegable ul li a {
+          color: #fff;
+          text-decoration: 1px underline #fff; }
   header .seeWork {
     width: 100%;
     height: 600px;
@@ -96,7 +108,7 @@ header {
     background: url(../images/kitchen_tile.jpg);
     background-size: cover;
     overflow: hidden; }
-    header .seeWork .container {
+    header .seeWork .contenedor {
       width: 40%;
       padding: 20px;
       margin: auto;
@@ -105,17 +117,17 @@ header {
       z-index: 2;
       background: #1d1d1d93;
       color: #fff; }
-      header .seeWork .container .principal {
+      header .seeWork .contenedor .principal {
         font-size: 27px;
         font-family: "OpS-SemiBold";
         text-align: center;
         margin-bottom: 20px; }
-      header .seeWork .container .description {
+      header .seeWork .contenedor .description {
         width: 70%;
         margin: auto;
         text-align: center;
         font-size: 16px; }
-      header .seeWork .container .btn {
+      header .seeWork .contenedor .btn {
         width: 30%;
         margin-left: 35%;
         margin-top: 15px;
@@ -127,55 +139,55 @@ header {
 .tileInstalation {
   background: #ccc;
   width: 100%; }
-  .tileInstalation .container {
+  .tileInstalation .contenedor {
     width: 80%;
     margin: auto;
     padding: 15px; }
-    .tileInstalation .container .titulo {
+    .tileInstalation .contenedor .titulo {
       margin: auto;
       width: 40%;
       padding: 40px 0px 0px 0px;
       border-right: 2px solid #f8b40b;
       border-bottom: 2px solid #f8b40b; }
-      .tileInstalation .container .titulo h3 {
+      .tileInstalation .contenedor .titulo h3 {
         font-size: 35px;
         font-family: "OpS-SemiBold";
         text-align: center; }
-    .tileInstalation .container .about {
+    .tileInstalation .contenedor .about {
       font-size: 28px;
       font-family: "OpS-LightItalic";
       color: #505050;
       margin: 50px 0px;
       padding: 10px;
       border-left: 2px solid #192a56; }
-    .tileInstalation .container .lets {
+    .tileInstalation .contenedor .lets {
       width: 100%;
       padding: 15px; }
-      .tileInstalation .container .lets h6 {
+      .tileInstalation .contenedor .lets h6 {
         font-size: 18px;
         margin-bottom: 15px; }
-      .tileInstalation .container .lets .info {
+      .tileInstalation .contenedor .lets .info {
         width: 80%;
         margin: auto;
         text-align: center;
         line-height: 28px;
         font-family: "OpS-Regular"; }
-    .tileInstalation .container .otherInfromation {
+    .tileInstalation .contenedor .otherInfromation {
       width: 100%; }
-      .tileInstalation .container .otherInfromation .container {
+      .tileInstalation .contenedor .otherInfromation .contenedor {
         width: 50%;
         margin: auto; }
-        .tileInstalation .container .otherInfromation .container iframe {
+        .tileInstalation .contenedor .otherInfromation .contenedor iframe {
           width: 100%; }
-        .tileInstalation .container .otherInfromation .container button {
+        .tileInstalation .contenedor .otherInfromation .contenedor button {
           margin-left: 22%;
           margin-top: 7%;
           margin-bottom: 7%;
           background: transparent;
           border: transparent; }
-          .tileInstalation .container .otherInfromation .container button img {
+          .tileInstalation .contenedor .otherInfromation .contenedor button img {
             width: 100%; }
-        .tileInstalation .container .otherInfromation .container p {
+        .tileInstalation .contenedor .otherInfromation .contenedor p {
           text-align: center;
           font-size: 20px; }
 
@@ -183,63 +195,63 @@ header {
   background: url(../images/tile_pattern.jpg);
   background-size: cover;
   width: 100%; }
-  .muestras .container {
+  .muestras .contenedor {
     width: 90%;
     padding: 20px;
     margin: auto;
     display: flex;
     flex-direction: row; }
-    .muestras .container .muestra {
+    .muestras .contenedor .muestra {
       width: 30%;
       background: #fff;
       margin: auto; }
-      .muestras .container .muestra p {
+      .muestras .contenedor .muestra p {
         text-align: center;
         color: #192a56;
         font-size: 22px;
         font-family: "OpS-SemiBold";
         margin: 10px; }
-      .muestras .container .muestra img {
+      .muestras .contenedor .muestra img {
         width: 100%; }
-      .muestras .container .muestra button {
+      .muestras .contenedor .muestra button {
         margin-bottom: 10px; }
 
 .contact {
   width: 100%;
   background: url(../images/footer_final.jpg); }
-  .contact .container {
+  .contact .contenedor {
     width: 90%;
     margin: auto; }
-    .contact .container .formulario {
+    .contact .contenedor .formulario {
       width: 50%;
       padding: 20px;
       margin: auto;
       border: 2px solid #192a56;
       border-radius: 8px;
       background: #ffff; }
-      .contact .container .formulario h4 {
+      .contact .contenedor .formulario h4 {
         text-align: center;
         color: #192a56;
         font-size: 28px;
         font-family: "OpS-SemiBold";
         padding: 20px; }
-      .contact .container .formulario .container {
+      .contact .contenedor .formulario .contenedor {
         width: 50%;
         float: left; }
-        .contact .container .formulario .container label {
+        .contact .contenedor .formulario .contenedor label {
           display: inline-block;
           color: #192a56;
           font-family: "OpS-SemiBoldItalic"; }
-        .contact .container .formulario .container input {
+        .contact .contenedor .formulario .contenedor input {
           padding: 10px; }
-      .contact .container .formulario #emailContain {
+      .contact .contenedor .formulario #emailContain {
         float: right; }
-        .contact .container .formulario #emailContain input, .contact .container .formulario #emailContain label {
+        .contact .contenedor .formulario #emailContain input, .contact .contenedor .formulario #emailContain label {
           float: right; }
-      .contact .container .formulario #number, .contact .container .formulario #message {
+      .contact .contenedor .formulario #number, .contact .contenedor .formulario #message {
         width: 100%;
         padding: 10px 35%; }
-      .contact .container .formulario textarea {
+      .contact .contenedor .formulario textarea {
         max-width: 220px;
         min-width: 180px;
         max-height: 220px;
@@ -306,18 +318,18 @@ footer {
   width: 100%;
   background: #000;
   padding: 10px; }
-  footer .container {
+  footer .contenedor {
     width: 80%;
     margin: auto;
     color: #fff;
     text-align: center; }
-    footer .container p {
+    footer .contenedor p {
       margin: 10px; }
-    footer .container a {
+    footer .contenedor a {
       color: #fff;
       text-decoration: none;
       margin: 15px 30px; }
-      footer .container a:hover {
+      footer .contenedor a:hover {
         color: #f8b40b;
         text-decoration: underline; }
 
