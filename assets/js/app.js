@@ -2,7 +2,7 @@ $(document).ready(function(){
     //$('.materialboxed').materialbox();
     var despliegue = document.querySelector('#servicies');
     var desplegable = document.querySelector('.desplegable');
-
+    var enlace = document.querySelectorAll('#dow-item');
     $(desplegable).hide();
 
     despliegue.addEventListener('mouseover', ()=>{
@@ -11,8 +11,18 @@ $(document).ready(function(){
         $(desplegable).show();
     
     });
+    /*
+    enlace.addEventListener('mouseover', ()=>{
+        $(desplegable).show(); 
+    })
 
-    despliegue.addEventListener('mouseout', ()=>{
-        $(desplegable).hide();
+    enlace.addEventListener('mouseout', ()=>{
+        $(desplegable).hide(); 
+    })
+*/
+    despliegue.addEventListener('mouseout', ()=>{    
+        $(desplegable).hide();     
     });
+
+
 });

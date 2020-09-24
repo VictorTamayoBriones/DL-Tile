@@ -1,16 +1,9 @@
 //Fuentes
-
 @font-face{ font-family: OpS-Bold; src: url(../fonts/OpenSans-Bold.ttf); }
-@font-face{ font-family: OpS-BoldItalic; src: url(../fonts/OpenSans-BoldItalic.ttf); }
-@font-face{ font-family: OpS-ExtraBold; src: url(../fonts/OpenSans-ExtraBold.ttf); }
-@font-face{ font-family: OpS-ExtraBoldItalic; src: url(../fonts/OpenSans-ExtraBoldItalic.ttf); }
-@font-face{ font-family: OpS-Italic; src: url(../fonts/OpenSans-Italic.ttf); }
 @font-face{ font-family: OpS-Light; src: url(../fonts/OpenSans-Light.ttf); }
 @font-face{ font-family: OpS-LightItalic; src: url(../fonts/OpenSans-LightItalic.ttf); }
 @font-face{ font-family: OpS-Regular; src: url(../fonts/OpenSans-Regular.ttf); }
 @font-face{ font-family: OpS-SemiBold; src: url(../fonts/OpenSans-SemiBold.ttf); }
-@font-face{ font-family: OpS-SemiBoldItalic; src: url(../fonts/OpenSans-SemiBoldItalic.ttf); }
-
 //variables
 $azul:#192a56;
 $amarillo: #f8b40b;
@@ -78,11 +71,20 @@ header{
                     li{
                         list-style: none;
                         margin: 15px;
+                        ul{
+                            width: 28%;
+                            background: $amarillo;
+                            display: flex;
+                            flex-direction: column;
+                            position: absolute;
+                            margin-top: -1px;
+                        }
                         a{
                             color: #fff;
                             text-decoration: none;
                             font-size: 22px;
                             font-family: "Ops-Light";
+                            padding: 15px;
                             &:hover{
                                 text-decoration: underline #fff;
                             }
@@ -94,6 +96,7 @@ header{
             }
             
         }   
+        /*
         .desplegable{
             background: #000;
             position: relative;
@@ -111,10 +114,12 @@ header{
                     a{
                         color:#fff;
                         text-decoration:1px underline #fff;
+                        padding: 5px;
                     }
                 }
             }
-        }     
+        } 
+        */    
     }
     .seeWork{
         width: 100%;
