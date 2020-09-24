@@ -87,14 +87,18 @@ header {
           font-size: 22px;
           font-family: "Ops-Light"; }
           header .navigate .contenedor .menu ul li a:hover {
-
             text-decoration: underline #fff; }
   header .navigate .desplegable {
-    background: #000; }
+    background: #000;
+    position: relative;
+    bottom: 60px; }
     header .navigate .desplegable ul {
-      width: 20%;
-      background: #f8b40b;
-      padding: 15px; }
+      width: 22%;
+      background: linear-gradient(to left, #f8b40b, #f8b50be8);
+      padding: 15px;
+      margin-left: 73%;
+      position: absolute;
+      z-index: 3; }
       header .navigate .desplegable ul li {
         margin: 10px;
         list-style: none; }
@@ -138,7 +142,7 @@ header {
         border: none; }
 
 .tileInstalation {
-  background: rgb(255, 255, 255);
+  background: #ccc;
   width: 100%; }
   .tileInstalation .contenedor {
     width: 80%;
