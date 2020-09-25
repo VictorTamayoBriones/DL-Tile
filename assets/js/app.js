@@ -1,21 +1,24 @@
 $(document).ready(function(){
+<<<<<<< HEAD
     
     var despliegue = document.querySelector('#servicies');
+=======
+
+    var btnDespliegue = document.querySelector('#servicies');
+>>>>>>> 636c50b2a62177d4bd80126e1668b573aeb48d3c
     var desplegable = document.querySelector('.desplegable');
+    
     var btnMenu = document.querySelector('#menu');
     var ulMenu = document.querySelector('#ul');
 
     $(desplegable).hide();
 
-    despliegue.addEventListener('mouseover', ()=>{
-        var desplegable = document.querySelector('.desplegable');
-
-        $(desplegable).slideDown();
-
+    btnDespliegue.addEventListener('mouseover', ()=>{
+        $(desplegable).show();
     });
 
-    despliegue.addEventListener('mouseout', ()=>{    
-        $(desplegable).slideUp();     
+    btnDespliegue.addEventListener('mouseout', ()=>{    
+        $(desplegable).hide();     
     });
 
     btnMenu.addEventListener('click', ()=>{
