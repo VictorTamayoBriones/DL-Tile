@@ -13,6 +13,46 @@
 @font-face {
   font-family: OpS-SemiBold;
   src: url(../fonts/OpenSans-SemiBold.ttf); }
+.materialboxed {
+  display: block;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+  position: relative;
+  -webkit-transition: opacity .4s;
+  transition: opacity .4s;
+  -webkit-backface-visibility: hidden; }
+
+.materialboxed:hover:not(.active) {
+  opacity: .8; }
+
+.materialboxed.active {
+  cursor: -webkit-zoom-out;
+  cursor: zoom-out; }
+
+#materialbox-overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #0000008e;
+  z-index: 1000;
+  will-change: opacity; }
+
+.materialbox-caption {
+  position: fixed;
+  display: none;
+  color: #fff;
+  line-height: 50px;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 0% 15%;
+  height: 50px;
+  z-index: 1000;
+  -webkit-font-smoothing: antialiased; }
+
 * {
   margin: 0;
   padding: 0;
@@ -226,16 +266,16 @@ header {
     width: 90%;
     margin: auto; }
     .gallery .container .pictures {
-      width: 100%; }
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap; }
       .gallery .container .pictures .picture {
         width: 300px;
         height: 200px;
-        display: inline-block;
         overflow: hidden;
         margin: -2px; }
         .gallery .container .pictures .picture img {
           width: 100%;
-          display: inline-block;
           opacity: .7; }
           .gallery .container .pictures .picture img:hover {
             opacity: 1; }
@@ -452,7 +492,33 @@ footer {
     margin-left: 5%; }
   .contact .contacUs .horarios {
     width: 90%;
-    float: left; } }
+    float: left; }
+
+  .gallery {
+    width: 100%; }
+    .gallery h4 {
+      font-family: "OpS-SemiBold";
+      font-size: 28px;
+      color: #192a56;
+      padding: 15px;
+      margin: 15px 0px; }
+    .gallery .container {
+      width: 90%;
+      margin: auto; }
+      .gallery .container .pictures {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; }
+        .gallery .container .pictures .picture {
+          width: 150px;
+          height: 100px;
+          overflow: hidden;
+          margin: -2px; }
+          .gallery .container .pictures .picture img {
+            width: 100%;
+            opacity: .7; }
+            .gallery .container .pictures .picture img:hover {
+              opacity: 1; } }
 @media screen and (max-width: 500px) {
   header .navigate .contenedor .menu {
     background: #f8b40b; }

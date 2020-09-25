@@ -161,6 +161,39 @@
             }
         }
     }
+
+    .gallery{
+        width: 100%;
+        h4{
+            font-family: "OpS-SemiBold";
+            font-size: 28px;
+            color: $azul;
+            padding: 15px;
+            margin: 15px 0px;
+        }
+        .container{
+            width: 90%;
+            margin: auto;
+            .pictures{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                .picture{
+                    width: 150px;
+                    height: 100px;
+                    overflow: hidden;
+                    margin: -2px;
+                    img{
+                        width: 100%;
+                        opacity: .7;
+                        &:hover{
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media screen and (max-width: 500px){
