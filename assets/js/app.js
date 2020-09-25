@@ -6,6 +6,8 @@ $(document).ready(function(){
     var btnMenu = document.querySelector('#menu');
     var ulMenu = document.querySelector('#ul');
 
+    var picture = document.querySelectorAll('#galleryImg');
+
     $(desplegable).hide();
 
     btnDespliegue.addEventListener('mouseover', ()=>{
@@ -18,6 +20,10 @@ $(document).ready(function(){
 
     btnMenu.addEventListener('click', ()=>{
         $(ulMenu).slideToggle();
+    });
+
+    picture.addEventListener('click', ()=>{
+
     });
 
 });

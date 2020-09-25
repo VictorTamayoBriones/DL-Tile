@@ -224,19 +224,21 @@ header {
     margin: 15px 0px; }
   .gallery .container {
     width: 90%;
-    margin: auto;
-    background: #000; }
+    margin: auto; }
     .gallery .container .pictures {
       width: 100%; }
       .gallery .container .pictures .picture {
         width: 300px;
-        height: 150px;
-        border: 1px solid #ffffff;
+        height: 200px;
         display: inline-block;
-        overflow: hidden; }
+        overflow: hidden;
+        margin: -2px; }
         .gallery .container .pictures .picture img {
           width: 100%;
-          display: inline-block; }
+          display: inline-block;
+          opacity: .7; }
+          .gallery .container .pictures .picture img:hover {
+            opacity: 1; }
 
 .contact {
   width: 100%;

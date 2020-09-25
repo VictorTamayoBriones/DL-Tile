@@ -10,18 +10,21 @@
     .container{
         width: 90%;
         margin: auto;
-        background: #000;
         .pictures{
             width: 100%;
             .picture{
                 width: 300px;
-                height: 150px;
-                border: 1px solid #ffffff;
+                height: 200px;
                 display: inline-block;
                 overflow: hidden;
+                margin: -2px;
                 img{
                     width: 100%;
                     display: inline-block;
+                    opacity: .7;
+                    &:hover{
+                        opacity: 1;
+                    }
                 }
             }
         }
