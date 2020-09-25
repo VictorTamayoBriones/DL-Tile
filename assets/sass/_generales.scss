@@ -1,0 +1,29 @@
+$azul:#192a56;
+$amarillo: #f8b40b;
+
+//Generales
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.btn{
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 15px;
+    background: $amarillo;
+    color: #fff;
+    padding: 10px 0px;
+    border: none;
+    &:hover{
+        background:#e7a600;
+    }
+}
+body{
+    width: 100%;
+    background: #fff;
+    font-family: "OpS-Regular";
+}

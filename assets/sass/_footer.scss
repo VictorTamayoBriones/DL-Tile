@@ -1,0 +1,23 @@
+footer{
+    width: 100%;
+    background: #000;
+    padding: 10px;
+    .contenedor{
+        width: 80%;
+        margin: auto;
+        color: #fff;
+        text-align: center;
+        p{
+            margin: 10px;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+            margin: 15px 30px;
+            &:hover{
+                color: $amarillo;
+                text-decoration: underline;
+            }
+        }
+    }
+}

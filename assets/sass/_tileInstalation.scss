@@ -1,0 +1,81 @@
+.tileInstalation{
+    background: #fff;
+    width: 100%;
+    .contenedor{
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+        .titulo{
+            margin: auto;
+            width: 40%;
+            padding: 40px 0px 0px 0px;
+            border-right: 2px solid $amarillo;
+            border-bottom: 2px solid $amarillo;
+            h3{
+                font-size: 35px;
+                font-family: "OpS-SemiBold";
+                text-align: center;
+            }
+        }
+
+        .about{
+            font-size: 28px;
+            font-family: "OpS-LightItalic";
+            color: #505050;
+            margin: 50px 0px;
+            padding: 10px;
+            border-left: 2px solid $azul;
+        }
+
+        .lets{
+            width: 100%;
+            padding: 15px;
+            h6{
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+            .info{
+                width: 80%;
+                margin: auto;
+                text-align: center;
+                line-height: 28px;
+                font-family: "OpS-Regular";
+            }
+            .cuerpo{
+                width: 80%;
+                margin: auto;
+                text-align: left;
+                line-height: 28px;
+                font-family: "OpS-Regular";
+            }
+        
+        }
+
+        .otherInfromation{
+            width: 100%; 
+            .contenedor{
+                width: 50%;
+                margin: auto;
+            
+                iframe{
+                    width: 100%;
+                }
+                button{
+                    margin-left: 22%;
+                    margin-top: 7%;
+                    margin-bottom: 7%;
+                    background: transparent;
+                    border: transparent;
+                    
+                    img{
+                        width: 100%;
+                    }
+                }
+                p{
+                    text-align: center;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+.gallery{
+    width: 100%;
+    h4{
+        font-family: "OpS-SemiBold";
+        font-size: 28px;
+        color: $azul;
+        padding: 15px;
+        margin: 15px 0px;
+    }
+    .container{
+        width: 90%;
+        margin: auto;
+        background: #000;
+        .pictures{
+            width: 100%;
+            .picture{
+                width: 300px;
+                height: 150px;
+                border: 1px solid #ffffff;
+                display: inline-block;
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
