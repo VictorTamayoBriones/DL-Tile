@@ -1,0 +1,126 @@
+.contact{
+    width: 100%;
+    background: url(../images/footer_final.jpg);
+    .contenedor{
+        width: 90%;
+        margin: auto;
+        .formulario{
+            width: 50%;
+            padding: 20px;
+            margin: auto;
+            border: 2px solid $azul;
+            border-radius: 8px;
+            background: #ffff;
+            h4{
+                text-align: center;
+                color: $azul;
+                font-size: 28px;
+                font-family: "OpS-SemiBold";
+                padding: 20px;
+            }
+            .contenedor{
+                width: 50%;
+                float: left;
+                label{
+                    display: inline-block;
+                    color: $azul;
+                    font-family: "OpS-SemiBoldItalic";
+
+                }
+                input{
+                    padding:10px;
+                }
+            }
+            #emailContain{
+                float: right;
+                input, label{
+                    float: right;
+                }
+            }
+            #number, #message{
+                width: 100%;
+                padding: 10px 35%;
+            }
+            textarea{
+                max-width: 220px;
+                min-width: 180px;
+                max-height: 220px;
+                min-height: 80px;
+                padding:10px;
+            }
+            
+        }
+    }
+    .mapa{
+        width: 100%;
+        h4{
+            text-align: left;
+            font-size: 22px;
+            font-family: "OpS-SemiBold";
+            color: $azul;
+            margin: 10px;
+        }
+        iframe{
+            width: 100%;
+        }
+    }
+    .contacUs{
+        h4{
+            text-align: center;
+            font-size: 22px;
+            font-family: "OpS-SemiBold";
+            color: $azul;
+            margin: 10px;
+        }  
+        .datos{
+            background: #fff;
+            border: 1px solid $azul;
+            border-radius: 8px;
+            padding: 20px;
+            width: 35%;
+            margin:20px auto;
+            text-align: left;
+            line-height: 27px;
+            float: left;
+            .texto{
+                width: 70%;
+                float: left;
+                margin: auto;
+            }
+            .foto{
+                width: 30%;
+                float: left;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+        .horarios{
+            width: 50%;
+            float: left;
+            margin-left: 10%;
+            h5{
+                text-align: center;
+                font-size: 18px;
+                margin-bottom: 15px;
+            }
+            .entreSemana{
+                width: 50%;
+                float: left;
+            }
+            .finSemana{
+                width: 50%;
+                float: left;
+                text-align: right;
+            }
+            samp{
+                font-family: "OpS-Bold";
+                font-size: 15px;
+                line-height: 25px;
+            }
+            p{
+                text-align: center;
+            }
+        }
+    }
+}

@@ -13,6 +13,14 @@
 @font-face {
   font-family: OpS-SemiBold;
   src: url(../fonts/OpenSans-SemiBold.ttf); }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.clear {
+  clear: both; }
+
 .btn {
   width: 30%;
   margin-left: 35%;
@@ -23,17 +31,6 @@
   border: none; }
   .btn:hover {
     background: #e7a600; }
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
-.ver {
-  display: block; }
-
-.clear {
-  clear: both; }
 
 body {
   width: 100%;

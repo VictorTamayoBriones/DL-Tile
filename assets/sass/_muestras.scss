@@ -1,0 +1,30 @@
+.muestras{
+    background: url(../images/tile_pattern.jpg);
+    background-size: cover;
+    width: 100%;
+    .contenedor{
+        width: 90%;
+        padding: 20px;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        .muestra{
+            width: 30%;
+            background: #fff;
+            margin: auto;
+            p{
+                text-align: center;
+                color: $azul;
+                font-size: 22px;
+                font-family: "OpS-SemiBold";
+                margin: 10px;
+            }
+            img{
+                width: 100%;
+            }
+            button{
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
