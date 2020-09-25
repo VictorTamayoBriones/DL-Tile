@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.materialboxed').materialbox();
+    
     var despliegue = document.querySelector('#servicies');
     var desplegable = document.querySelector('.desplegable');
     var btnMenu = document.querySelector('#menu');
@@ -21,5 +21,5 @@ $(document).ready(function(){
     btnMenu.addEventListener('click', ()=>{
         $(ulMenu).slideToggle();
     });
-
+    $('.materialboxed').materialbox();
 });
