@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="../assets/images/apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
     <title>DL tile</title>
 </head>
@@ -16,67 +17,58 @@
                 <div class="topBar">
                     <p>Call Today! 707-385-5146</p>
                 </div>
-
                 <div class="menu">
+                    <button id="menu" ><i class="material-icons" style="font-size: 35px;">menu</i></button>
                     <img src="../assets/images/logo.png" alt="Dl Tile" title="Dl Tile">
-                    <ul>
+                    <ul id="ul">
                         <li>
-                            <a href="#">Testimonials</a>
+                            <a href="../views/Testimonials.html">Testimonials</a>
                         </li>
 
                         <li>
-                            <a href="#">Gallery</a>
+                            <a href="../views/gallery.html">Gallery</a>
+                        </li>
+
+                        <li id="servicies">
+                            <a href="#">Servicies</a>
+                            
+                            <ul class="desplegable">
+                                <li>
+                                    <a href="../views/TileInstallations.html" id="dow-item">Tile Installation</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../views/Kitchen Tile.html" id="dow-item">Kitchen Tile</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../views/BathroomTileandShower ile.html" id="dow-item">Bathroom Tile and Shower Tile</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../views/CeramicandStoneTile.html" id="dow-item">Ceramic and Stone Tile</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../views/Countertops.html" id="dow-item">Countertops</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../views/TileandStoneFlooring.html" id="dow-item">Tile and Stone Flooring</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="../views/Quartz.html" id="dow-item">Quartz</a>
+                                </li>
+                            </ul>
                         </li>
 
                         <li>
-                            <a href="#" id="servicies">Servicies</a>
-                        </li>
-
-                        <li>
-                            <summary><a href="#">Home</a>
+                            <a href="../index.html">Home</a>
                         </li>
                     </ul>
                     <div class="clear"></div>
                 </div>
-            </div>
-            <div class="desplegable" id=despliegue>
-                <ul>
-                    <li>
-                        <a href="/TileInstallations.html">Tile Installation</a>
-                    </li>
-                
-                    <li>
-                        <a href="#">Kitchen Tile</a>
-                    </li>
-                
-                    <li>
-                        <a href="#">Bathroom Tile and Shower Tile</a>
-                    </li>
-                
-                    <li>
-                        <a href="#">Ceramic and Stone Tile</a>
-                    </li>
-                
-                    <li>
-                        <a href="#">Countertops</a>
-                    </li>
-                
-                    <li>
-                        <a href="#">Tile and Stone Flooring</a>
-                    </li>
-                
-                    <li>
-                        <a href="#">Quartz</a>
-                    </li>
-                
-                    <li>
-                        <a href="#">Gallery</a>
-                    </li>
-                
-                    <li>
-                        <a href="#">Testimonials</a>
-                    </li>
-                </ul>
             </div>
         </nav>
         
@@ -222,6 +214,7 @@
 
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/my-jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>

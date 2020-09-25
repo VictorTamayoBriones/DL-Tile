@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dl tile Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="../assets/images/apple-touch-icon.png">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
+    <title>DL tile</title>
 </head>
 <body>
     <header>
@@ -25,7 +26,7 @@
                         </li>
 
                         <li>
-                            <a href="./gallery.html">Gallery</a>
+                            <a href="../views/gallery.html">Gallery</a>
                         </li>
 
                         <li id="servicies">
@@ -70,79 +71,41 @@
                 </div>
             </div>
         </nav>
+        
     </header>
 
-    <section class="gallery">
-        <h4>Gallery</h4>
-        <div class="container">
-            <div class="pictures">
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-07.jpg" alt="DiazLopez-07" title="DiazLopez-07">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-08.jpg" alt="DiazLopez-08" title="DiazLopez-08">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-09.jpg" alt="DiazLopez-09" title="DiazLopez-09">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-10.jpg" alt="DiazLopez-10" title="DiazLopez-10">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-11.jpg" alt="DiazLopez-11" title="DiazLopez-11">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-12.jpg" alt="DiazLopez-12" title="DiazLopez-12">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-13.jpg" alt="DiazLopez-13" title="DiazLopez-13">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-14.jpg" alt="DiazLopez-14" title="DiazLopez-14">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-15.jpg" alt="DiazLopez-15" title="DiazLopez-15">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-16.jpg" alt="DiazLopez-16" title="DiazLopez-16">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-17.jpg" alt="DiazLopez-17" title="DiazLopez-17">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-18.jpg" alt="DiazLopez-18" title="DiazLopez-18">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-19.jpg" alt="DiazLopez-19" title="DiazLopez-19">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-20.jpg" alt="DiazLopez-20" title="DiazLopez-20">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-21.jpg" alt="DiazLopez-21" title="DiazLopez-21">
-                </div>
-
-                <div class="picture" id="galleryImg">
-                    <img src="../assets/images/galeria/DiazLopez-23.jpg" alt="DiazLopez-23" title="DiazLopez-23">
-                </div>
+    <section class="tileInstalation">
+        <div class="contenedor">
+            <div class="titulo">
+                <h2>Tile and Stone Flooring</h2>
             </div>
-        </div>
+            <br/>
+            
+
+           
+            <div class="lets">
+
+                <p class="cuerpo">
+                    Are you looking for a long-lasting and low-maintenance flooring option? Tile and stone flooring looks beautiful and will last for years to come. Best yet it is easy to clean and maintain. Tile is available in multiple materials and can be custom selected to match the look of any home. Whether you are looking for something traditional, a more contemporary look or would love the look of hardwoods but don’t have the budget, we have a tile flooring option for you. The tile flooring experts at Diaz Lopez Tile have years of experience working with homeowners just like you and you can count on a quality job at a price you can afford. Contact us today to learn more about our services or for a free estimate.
+                </p>
+                <br/>
+                <br/>
+            
+                <br>
+                
+            </div>
+
+            <div name="imagenes" class="row">
+                <div style="width: 24rem;"></div>
+                <div class="card" style="width: 24rem;">
+                    <img src="../assets/images/Stone Flooring.jpg" class="card-img-top materialboxed" alt="...">
+                  </div>
+            
+            </div>  
+
     </section>
+    <br/>
+
 
 
     <section class="contact">
@@ -166,13 +129,14 @@
                 </div>
                 
                 <div class="contenedor" id="message">
+                    <label for="massage">Message</label>
                     <textarea name="massage" id="massage" placeholder="Insert a massage"></textarea>
                 </div>
                 
 
                 <p>Would you like to receive future emails? *</p>
 
-                <div class="contenedor" id="check">
+                <div class="contenedor">
                     <label for="yes">Yes</label>
                     <input type="radio" name="yes" id="yes">
                 
@@ -248,5 +212,7 @@
 
     <script src="../assets/js/jquery.min.js"></script>
     <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/my-jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 </html>
