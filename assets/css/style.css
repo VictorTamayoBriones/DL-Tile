@@ -78,14 +78,21 @@ header {
           flex-direction: column;
           position: absolute;
           margin-top: -1px; }
+          header .navigate .contenedor .menu ul li ul li {
+            margin: 2px;
+            padding: 15px; }
+            header .navigate .contenedor .menu ul li ul li:hover {
+              background: #192a56; }
           header .navigate .contenedor .menu ul li ul a {
             font-family: "Ops-Light"; }
+            header .navigate .contenedor .menu ul li ul a:hover {
+              text-decoration: none; }
         header .navigate .contenedor .menu ul li a {
           color: #fff;
           text-decoration: none;
           font-size: 22px;
           font-family: "Ops-Regular";
-          padding: 15px; }
+          padding: 10px; }
           header .navigate .contenedor .menu ul li a:hover {
             text-decoration: underline #fff; }
   header .seeWork {
@@ -535,48 +542,5 @@ footer {
     font-size: 22px;
     font-family: "OpS-SemiBold";
     padding: 20px; } }
-    .materialboxed {
-      display: block;
-      cursor: -webkit-zoom-in;
-      cursor: zoom-in;
-      position: relative;
-      -webkit-transition: opacity .4s;
-      transition: opacity .4s;
-      -webkit-backface-visibility: hidden;
-    }
-    
-    .materialboxed:hover:not(.active) {
-      opacity: .8;
-    }
-    
-    .materialboxed.active {
-      cursor: -webkit-zoom-out;
-      cursor: zoom-out;
-    }
-    
-    #materialbox-overlay {
-      position: fixed;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      background-color: #292929;
-      z-index: 1000;
-      will-change: opacity;
-    }
-    
-    .materialbox-caption {
-      position: fixed;
-      display: none;
-      color: #fff;
-      line-height: 50px;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      text-align: center;
-      padding: 0% 15%;
-      height: 50px;
-      z-index: 1000;
-      -webkit-font-smoothing: antialiased;
-    }
+
 /*# sourceMappingURL=style.css.map */
