@@ -214,6 +214,30 @@ header {
       .muestras .contenedor .muestra button {
         margin-bottom: 10px; }
 
+.gallery {
+  width: 100%; }
+  .gallery h4 {
+    font-family: "OpS-SemiBold";
+    font-size: 28px;
+    color: #192a56;
+    padding: 15px;
+    margin: 15px 0px; }
+  .gallery .container {
+    width: 90%;
+    margin: auto;
+    background: #000; }
+    .gallery .container .pictures {
+      width: 100%; }
+      .gallery .container .pictures .picture {
+        width: 300px;
+        height: 150px;
+        border: 1px solid #ffffff;
+        display: inline-block;
+        overflow: hidden; }
+        .gallery .container .pictures .picture img {
+          width: 100%;
+          display: inline-block; }
+
 .contact {
   width: 100%;
   background: url(../images/footer_final.jpg); }
